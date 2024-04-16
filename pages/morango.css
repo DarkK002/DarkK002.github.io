@@ -1,0 +1,155 @@
+body {
+    font-family: comfortaa;
+    margin: 0;
+    padding: 0;
+    background-color: #0077b6;
+}
+
+header {
+    background-color: #086375;
+    width: auto;
+    height: 60px;
+    display: flex;
+    color: white;
+    border-radius: 0 0 30px 30px;
+    border: 1px solid #3C1642;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 0 20px;
+}
+
+.titulo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 0 0 34px;
+}
+
+.sessao {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #0077b6;
+    color: white;
+}
+
+.sessao1 h1 {
+    font-size: 40px;
+}
+
+.sessao1 span {
+    color: #ff6961;
+}
+
+.sessao span {
+    color: #ff6961;
+}
+
+.cultivo {
+    padding: 50px 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+.cultivo h2 {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin: 10px auto;
+        max-width: 80%;
+    }
+
+    .titulo {
+        margin: 10px 0;
+    }
+
+    .sessao {
+        padding: 30px 10px;
+    }
+
+    .cultivos {
+        padding: 20px 0;
+    }
+
+    .cultivo {
+        padding: 20px;
+        margin: 0 0 20px 0;
+        max-width: 80%;
+        background-color: #FFDDD2;
+        border-radius: 10px;
+        border: 1px solid #3C1642;
+
+    }
+
+    
+
+    .cultivo h2 {
+        margin-top: 10px;
+        color: #3C1642;
+    }
+
+    .cultivo p {
+        margin-top: 15px;
+        color: #000;
+    }
+
+    .cultivos ul {
+        padding: o;
+        margin: 0 auto;
+        max-width: 80%;
+        text-align: left;
+    }
+
+    .cultivos li {
+        list-style-type: none;
+        text-align: center;
+    }
+    .cultivo li {
+        color: #000;
+        margin-top: 24px; 
+    }
+}
+
+footer {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.btn-voltar {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #3C1642;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-voltar:hover {
+    background-color: #086375;
+}
